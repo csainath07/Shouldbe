@@ -8,7 +8,7 @@ Object schema validator for Javascript.
 
 ## Install
 ```
-npm i --save shouldbe
+npm i --save shouldbe-schema-validator
 ```
 
 ## How to import
