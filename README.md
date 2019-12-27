@@ -14,11 +14,11 @@ npm i --save shouldbe
 ## How to import
 
 ```
-import Shouldbe from 'shouldbe';
+import Shouldbe from 'shouldbe-validator';
 
 OR
 
-const Shouldbe = require('shouldbe');
+const Shouldbe = require('shouldbe-validator');
 ```
 
 ## Example
