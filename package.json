@@ -1,0 +1,27 @@
+{
+  "name": "shouldbe",
+  "version": "1.0.0",
+  "description": "Shouldbe allow you to create the Object schemas to validate javascript Object. it will simplify lots of manual conditions to validate data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csainath07/shouldbe.git"
+  },
+  "keywords": [
+    "validation",
+    "valitor",
+    "object",
+    "javascript",
+    "schema",
+    "shouldbe"
+  ],
+  "author": "Sainath Chorghe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csainath07/shouldbe/issues"
+  },
+  "homepage": "https://github.com/csainath07/shouldbe#readme"
+}
