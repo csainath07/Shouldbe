@@ -1,6 +1,6 @@
 {
   "name": "shouldbe-schema-validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shouldbe allow you to create the Object schemas to validate javascript Object. it will simplify lots of manual conditions to validate data.",
   "main": "index.js",
   "scripts": {
