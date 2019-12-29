@@ -90,6 +90,18 @@ class Shouldbe {
         return this;
     }
 
+    static enum(_enum = []) {
+        let isValid = true;
+        if(this.type !== 'object' && this.type !== 'array') {
+            const index = _enum.findIndex(v=> v.toLowerCase() === this._value.toLowerCase());
+            isValid = index === -1 ? false : true;
+        }
+        if(!isValid) {
+            this.errors = [...this.errors, `Value must be ${_enum.join(' or ')}`];
+        }
+        return this;
+    }
+
     static max(maxValue = 1) {
         let isValid = true;
         switch (this.type) {

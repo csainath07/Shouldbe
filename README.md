@@ -99,7 +99,8 @@ Rules | Description
 `trim`| The value must not have leading or trailing whitespace 
 `required`| The value must not have blank 
 `allow`| The value can be given value `.allow(null)` 
-`items`| Accept nested schema for `Object` and `Array` 
+`items`| Accept nested schema for `Object` and `Array`
+`enum` | The value must in given collection `.enum(['cat', 'dog'])`
 
 ## Methods
 
